@@ -1,0 +1,12 @@
+# secrets: never upload
+.env
+.env.*
+!.env.example
+
+# installed packages (anyone can reinstall with npm install)
+node_modules/
+
+# local files
+npm-debug.log*
+.DS_Store
+Thumbs.db
